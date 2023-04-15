@@ -1,0 +1,405 @@
+.search{
+    width: 400px;
+    margin-left: 300px;
+    border: none;
+    border-radius: 30px;
+    padding: 7px;
+    padding-left:9px ;
+    background-color: rgb(240, 237, 237);
+}
+.creatingaccount{
+    display: flex;
+}
+.creatingaccount p{
+    margin-right:5px;
+}
+.creatingaccount{
+    margin-left: 250px;
+    padding-top: 10px;
+}
+.backgroundimg{
+    background-image: url('1.jpg');
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundimg h1{
+    color: white;
+   padding-top: 250px;
+   padding-left: 80px;
+}
+.backgroundimg p{
+    color: white;
+    opacity: calc(0.8);
+    padding-left: 80px;
+}
+.items{
+    display: flex;
+    margin-top: 20px;
+    padding: 5px;
+    /* background-color: red; */
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+    border-bottom: 0.2px solid rgb(201, 195, 195);
+
+}
+.post{
+    margin-right: 400px;
+}
+.post a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: gray;
+}
+.newpost .mybtn{
+    border: none;
+    margin-right: 3px;
+    padding: 7px;
+}
+.newpost .group{
+    background-color: rgb(76, 76, 139);
+    color: white;
+}
+.partition{
+    display: flex;
+   
+}
+.images{
+   
+    width: 65%;
+}
+.chats{
+   
+    width: 35%;
+}
+.title1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.author1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info1{
+    display: flex;
+}
+.info1 .share{
+    border: none;
+    font-size: 15px;
+    margin-left: 15px;
+
+}
+.personalinfo{
+    margin: 40px;
+}
+.personalinfo input{
+    border: none;
+    border-bottom: 0.2px solid gray;
+    padding: 9px;
+}
+.personalinfo p{
+    padding: 9px;
+    color: rgb(161, 160, 160);
+}
+.main2{
+    display:flex;
+    flex-direction: column;
+}
+.submit a{
+    color: white;
+    text-decoration: none;
+}
+.main2 input{
+    padding: 8px;
+    width: 400px;
+    background-color: rgb(251, 251, 251);
+    border: none;
+    border:0.2px solid rgb(196, 193, 193);
+    border-bottom: none;
+}
+.main2 .input1{
+    display: flex;
+}
+.input1 input{
+    width: 200px;
+}
+.submit{
+    width: 400px;
+    border-radius: 10px;
+    color: white;
+    background: rgb(88, 88, 201);
+    padding: 6px;
+    border: none;
+}
+.google{
+    width: 400px;
+    background-color: white;
+    padding: 7px;
+    border:0.2px solid rgb(228, 222, 222) ;
+}
+.signinpage{
+    position: absolute;
+    right: 6px;
+    top: 50px;
+}
+.card-img-top {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+.modal-header{
+    background-color: rgb(227, 243, 227);
+    color: green;
+}
+.conform{
+    border-bottom:0.2px solid rgb(228, 222, 222)!important ;
+    
+}
+.heading1{
+    font-size: 5px;
+}
+.searchbar i{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 9px;
+}
+.search{
+    padding-left: 70px;
+}
+.editbutton{
+    visibility: hidden;
+   
+}
+.btn1{
+    position: fixed;
+    
+    right: 20px;
+    bottom: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 69px black;
+    
+   
+}
+.share p{
+    margin-left: 5px;
+}
+.author1 img{
+    border-radius: 50%;
+}
+.author1 .name{
+    margin-left: -160px;
+}
+.filters{
+   visibility: hidden; 
+}
+.btn-primary{
+    visibility: visible;
+}
+.sizing{
+    display: flex;
+}
+.images .imagesin{
+    margin-top: 70px;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+}
+@media(max-width:500px)
+{
+    .btn-primary{
+        visibility: visible;
+        position: absolute;
+        right: 60px;
+
+    }
+    .signinpage a{
+        
+    }
+    
+    .submit{
+        width: 300px;
+    }
+    .input1 input{
+        width: 150px!important;
+    }
+    .google{
+        width:300px;
+    }
+    .main2 input{
+        padding: 8px;
+        width: 300px;
+        background-color: rgb(251, 251, 251);
+        border: none;
+        border:0.2px solid rgb(196, 193, 193);
+        border-bottom: none;
+    }
+    .imagesin{
+        visibility: hidden;
+    }
+    .search{
+        margin-left: -8px
+    }
+    .creatingaccount{
+        margin-left: 8px;
+    }
+    .post{
+        visibility: hidden;
+    }
+    .newpost{
+        position: absolute;
+    }
+    .write{
+        visibility: hidden;
+    }
+  
+    .partition{
+       
+       
+        flex-direction: column;
+    }
+    .images{
+        width: 100%;
+    }
+    .editbutton{
+        visibility: visible;
+      
+        
+    }
+    .editbutton .btn{
+        position: fixed;
+        margin-top: 100px!important;
+        background-color: red;
+        color: white;
+        z-index: 9;
+    }
+    .btn{
+        visibility: hidden;
+    }
+    .chats{
+        visibility: hidden;
+    }
+    .filters{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    
+        width: 90%;
+        position: absolute;
+        top: 495px;
+        
+
+
+    }
+    .pagenumbers{
+        margin-right: 180px!important;
+        font-weight:bold;
+    }
+    .filter{
+        border: none;
+        
+    }
+    .author1 .name{
+        margin-left: -40px;
+    }
+    .search{
+        margin-left: 150px!important;
+    }
+    .searchbar i{
+        background-color: red!important;
+        visibility: hidden;
+    }
+    .signinpage{
+      right: 18px;
+    }
+    .group{
+        position: absolute;
+        top:-349px!important;
+        right: -250px!important;
+    }
+    
+}
+@media(max-width:1300px){
+    .imagesin{
+        visibility: visible;
+    }
+    .account{
+        visibility: hidden;
+    }
+    .searchbar{
+        margin-left: -110px;
+    }
+   .creatingaccount{
+    margin-left: -2px;
+
+   }
+   .items{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* background-color: green; */
+
+   }
+   .items .post{
+   max-width: 500!important;
+   margin-right: 20px;
+   
+    /* background-color: red; */
+   }
+ .items .post a{
+    font-size: 15px;
+    margin-left: 14px;
+ }
+}
+@media(max-width:800px){
+  .imagesin{
+    visibility: hidden;
+}
+  .group{
+    position: absolute;
+    /* top: -389px;
+    right:-320px; */
+    top: 105px;
+    right: 9px;
+
+    border:0.9px solid white !important;
+    background-color:transparent;
+  }
+}
+@media(max-width:400px){
+ .imagesin{
+    visibility: hidden;
+}
+ .group{
+    position: absolute;
+    right: 300px!important;
+ }
+ .backgroundimg{
+    top: 0;
+ }
+ .author1 img{
+    visibility: hidden;
+ }
+ .group{
+        right: -240px!important;
+        top: -300px!important;
+    }
+ .scrollpage p{
+    padding-left: 10px;
+ }
+
+ .btn-primary{
+    visibility: visible;
+}
+}
+@media(max-width:300px){
+    .group{
+        right: -160px!important;
+    }
+}
